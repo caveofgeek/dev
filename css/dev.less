@@ -1,0 +1,90 @@
+@primary-green: #16a085;
+
+@gray-darker:  lighten(#000, 20);    /* #333 */
+@gray-dark:    lighten(#000, 40);    /* #666 */
+@gray:         lighten(#000, 66.5);  /* #aaa */
+@gray-light:   lighten(#000, 86.8);  /* #ddd */
+@gray-lighter: lighten(#000, 93.5);  /* #eee */
+
+div.body {
+    //padding-top: 74px;
+}
+
+nav.navbar {
+    ul.nav {
+        li {
+            padding-left: 15px;
+
+            a {
+                font-family: Helvetica neue;
+                color: #7f8c8d;
+                font-weight: 100;
+                font-size: 18px;
+                letter-spacing: 1px;
+                padding: 15px 0;
+
+                &:hover {
+                    background: none;
+                    border-bottom: 2px solid #7f8c8d;
+                }
+
+                &.inverse {
+                    color: #7f8c8d;
+                    &:hover { border-bottom: 2px solid #7f8c8d; }
+                }
+            }
+
+            &.active {
+                a {
+                    border-bottom: 2px solid #7f8c8d;
+                    &.inverse { border-bottom: 2px solid #7f8c8d; }
+                }
+            }
+        }
+    }
+}
+
+div.wrapper {
+    height: 100% !important;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+
+    section {
+        &#s1 { background-color: #FF6138; }
+        // &#s2 { background-color: #FFFF9D; }
+        // &#s3 { background-color: #BEEB9F; }
+        // &#s4 { background-color: #79BD8F; }
+        &#s5 { background-color: #00A388; }
+    }
+}
+
+section {
+    div.container {
+        padding: 60px 0;
+        height: 100%;
+    }
+
+    &#s1 {
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-image: url("../images/hero.jpg");
+    }
+
+    &#s2 {
+        div.row {
+            margin: 50px auto;
+            h1 { margin-top: 0; }
+
+            div.col-md-3 {
+                float: none;
+                display: inline-block;
+
+                i { color: #1abc9c; }
+                h3 { color: @gray-darker; }
+                p { color: @gray; }
+            }
+        }
+    }
+}
