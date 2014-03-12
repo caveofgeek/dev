@@ -3,12 +3,14 @@
 /* #aaa */
 /* #ddd */
 /* #eee */
+div.body {
+  font-family: Helvetica neue;
+}
 nav.navbar ul.nav li {
   padding-left: 15px;
 }
 nav.navbar ul.nav li a {
-  font-family: Helvetica neue;
-  color: #7f8c8d;
+  color: white;
   font-weight: 100;
   font-size: 18px;
   letter-spacing: 1px;
@@ -16,7 +18,7 @@ nav.navbar ul.nav li a {
 }
 nav.navbar ul.nav li a:hover {
   background: none;
-  border-bottom: 2px solid #7f8c8d;
+  border-bottom: 2px solid white;
 }
 nav.navbar ul.nav li a.inverse {
   color: #7f8c8d;
@@ -25,7 +27,7 @@ nav.navbar ul.nav li a.inverse:hover {
   border-bottom: 2px solid #7f8c8d;
 }
 nav.navbar ul.nav li.active a {
-  border-bottom: 2px solid #7f8c8d;
+  border-bottom: 2px solid white;
 }
 nav.navbar ul.nav li.active a.inverse {
   border-bottom: 2px solid #7f8c8d;
@@ -39,7 +41,7 @@ div.wrapper {
 div.wrapper section#s1 {
   background-color: #FF6138;
 }
-div.wrapper section#s5 {
+div.wrapper section#s4 {
   background-color: #00A388;
 }
 section div.container {
@@ -51,6 +53,29 @@ section#s1 {
   background-position: 50%;
   background-repeat: no-repeat;
   background-image: url("../images/hero.jpg");
+}
+section#s1 div.wrapper {
+  color: white;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(64, 64, 64, 0.75)), to(rgba(192, 192, 192, 0.9)));
+  background-image: -moz-linear-gradient(top, bottom, from(rgba(64, 64, 64, 0.75)), to(rgba(192, 192, 192, 0.9)));
+}
+section#s1 div.wrapper div.container {
+  padding-top: 200px;
+}
+section#s1 div.wrapper div.container h1 {
+  font-weight: 100;
+  font-size: 65px;
+}
+section#s1 div.wrapper div.container h3 {
+  font-weight: 100;
+  font-size: 30px;
+}
+section#s3 div.row {
+  padding: 10px 50px;
+  margin: 50px auto;
+}
+section#s3 div.row div.col div.team a img {
+  width: 145px;
 }
 section#s2 div.row {
   margin: 50px auto;

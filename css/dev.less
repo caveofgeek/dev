@@ -7,7 +7,7 @@
 @gray-lighter: lighten(#000, 93.5);  /* #eee */
 
 div.body {
-    //padding-top: 74px;
+    font-family: Helvetica neue;
 }
 
 nav.navbar {
@@ -16,8 +16,7 @@ nav.navbar {
             padding-left: 15px;
 
             a {
-                font-family: Helvetica neue;
-                color: #7f8c8d;
+                color: white;
                 font-weight: 100;
                 font-size: 18px;
                 letter-spacing: 1px;
@@ -25,7 +24,7 @@ nav.navbar {
 
                 &:hover {
                     background: none;
-                    border-bottom: 2px solid #7f8c8d;
+                    border-bottom: 2px solid white;
                 }
 
                 &.inverse {
@@ -36,7 +35,7 @@ nav.navbar {
 
             &.active {
                 a {
-                    border-bottom: 2px solid #7f8c8d;
+                    border-bottom: 2px solid white;
                     &.inverse { border-bottom: 2px solid #7f8c8d; }
                 }
             }
@@ -55,7 +54,7 @@ div.wrapper {
         // &#s2 { background-color: #FFFF9D; }
         // &#s3 { background-color: #BEEB9F; }
         // &#s4 { background-color: #79BD8F; }
-        &#s5 { background-color: #00A388; }
+        &#s4 { background-color: #00A388; }
     }
 }
 
@@ -70,6 +69,49 @@ section {
         background-position: 50%;
         background-repeat: no-repeat;
         background-image: url("../images/hero.jpg");
+
+        div.wrapper {
+            color: white;
+            background-image:-webkit-gradient(linear,
+                0% 0%, 0% 90%,
+                from(rgba(64,64,64,0.75)),
+                to(rgba(192,192,192,0.9)));
+            background-image:-moz-linear-gradient(top,
+                bottom,
+                from(rgba(64,64,64,0.75)),
+                to(rgba(192,192,192,0.9)));
+
+            div.container {
+                padding-top: 200px;
+
+                h1 {
+                    font-weight: 100;
+                    font-size: 65px;
+                }
+
+                h3 {
+                    font-weight: 100;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    &#s3 {
+        div.row {
+            padding: 10px 50px;
+            margin: 50px auto;
+
+            div.col {
+                div.team {
+                    a {
+                        img {
+                            width: 145px;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     &#s2 {

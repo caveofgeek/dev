@@ -36,11 +36,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active" id="s1"><a href="#s1">SECTION 1</a></li>
-            <li id="s2"><a href="#s2">SECTION 2</a></li>
-            <li id="s3"><a href="#s3">SECTION 3</a></li>
-            <li id="s4"><a href="#s4">SECTION 4</a></li>
-            <li id="s5"><a href="#s5">SECTION 5</a></li>
+            <li class="active" id="s1"><a href="#s1">HOME</a></li>
+            <li id="s2"><a href="#s2">WHAT WE DO</a></li>
+            <li id="s3"><a href="#s3">ABOUT US</a></li>
+            <li id="s4"><a href="#s4">CONTACT</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -49,8 +48,13 @@
     <div class="wrapper">
       <div class="main">
         <section id="s1">
-          <div class="container">
-
+          <div class="wrapper">
+            <div class="container">
+              <div class="text-center">
+                <h1>RUK-COM DEVELOP</h1>
+                <h3>We build Web / Mobile Application that you will fall in love with</h3>
+              </div>
+            </div>
           </div>
         </section>
         <section id="s2">
@@ -91,9 +95,32 @@
             </div>
           </div>
         </section>
-        <section id="s3"></section>
+        <section id="s3">
+          <div class="container">
+            <div class="row">
+              <div class="col col-md-12">
+                <h2>RUK-COM DEV</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-md-12">
+                <div class="team">
+                  <a href="#"><img src="images/team/aon.png"></a>
+                  <a href="#"><img src="images/team/preaw.png"></a>
+                  <a href="#"><img src="images/team/mc.png"></a>
+                  <a href="#"><img src="images/team/bird.png"></a>
+                  <a href="#"><img src="images/team/preaw.png"></a>
+                  <a href="#"><img src="images/team/mc.png"></a>
+                  <a href="#"><img src="images/team/bird.png"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section id="s4"></section>
-        <section id="s5"></section>
       </div>
     </div>
 
