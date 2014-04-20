@@ -20,7 +20,22 @@ body {
 }
 
 .vert-text .find-out {
-  margin-top: 20px;
+  display: block;
+  margin: 20px auto;
+  color: white;
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.vert-text .find-out:hover {
+  text-decoration: none;
+  color: #666666;
+  border: 1px solid #666666;
 }
 
 /* Side Menu */
