@@ -253,6 +253,11 @@ i.service-icon {
   padding: 50px 0;
 }
 
+.call-to-action form {
+  padding: 0 40px;
+  margin-top: 35px;
+}
+
 .call-to-action .btn {
   margin: 10px;
 }
